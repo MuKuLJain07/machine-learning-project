@@ -1,0 +1,578 @@
+[ 2025-06-21 20:26:34,794 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+[ 2025-06-21 20:26:34,794 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-21 20:26:34,810 ] 224 werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+[ 2025-06-21 20:26:36,925 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-21 20:26:36,939 ] 224 werkzeug - INFO -  * Debugger PIN: 959-300-752
+[ 2025-06-21 20:39:32,654 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-06-21 20:39:32,654 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-21 20:39:37,491 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('templates\index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:39:37,499 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:39:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:39:37,922 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:39:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-06-21 20:39:43,641 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('templates\index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:39:43,643 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:39:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:41:01,806 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('templates\index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:41:01,809 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:41:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:41:02,645 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('templates\index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:41:02,647 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:41:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:41:03,286 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('templates\index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:41:03,287 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:41:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:41:09,886 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-06-21 20:41:09,886 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-21 20:41:12,700 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('templates\index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:41:12,705 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:41:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:41:13,314 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('templates\index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:41:13,318 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:41:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:41:50,744 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('templates\index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:41:50,746 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:41:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:41:51,895 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:41:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-06-21 20:42:18,003 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:42:18,005 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:42:18,954 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:42:18,955 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:42:19,735 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:42:19,737 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:42:20,421 ] 1744 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 14, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates\index.html
+[ 2025-06-21 20:42:20,422 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2025-06-21 20:42:30,066 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-06-21 20:42:30,067 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-21 20:42:32,656 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:32] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 20:42:45,754 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:45] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 20:42:47,457 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:47] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 20:42:47,898 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:47] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 20:42:48,208 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:42:48] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 20:43:10,820 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 20:43:10] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-21 22:16:26,724 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:16:26] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 22:17:50,386 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:17:50] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 22:17:51,210 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:17:51] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 22:17:51,898 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:17:51] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 22:17:59,707 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-06-21 22:17:59,707 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-21 22:18:03,561 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:18:03] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 22:18:29,370 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:18:29] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-21 22:18:49,338 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:18:49] "[33mPOST /predict HTTP/1.1[0m" 404 -
+[ 2025-06-21 22:18:52,328 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:18:52] "[33mPOST /predict HTTP/1.1[0m" 404 -
+[ 2025-06-21 22:23:09,261 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-06-21 22:23:09,261 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-21 22:23:10,091 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:23:10] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-21 22:23:23,712 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:23:23] "GET /predictdata?gender=male&race_ethnicity=group+A&parental_level_of_education=some+high+school&lunch=standard&test_preparation_course=completed&total_score=235 HTTP/1.1" 200 -
+[ 2025-06-21 22:24:18,949 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:24:18] "GET /predictdata?gender=male&race_ethnicity=group+D&parental_level_of_education=some+high+school&lunch=standard&test_preparation_course=none&total_score=234 HTTP/1.1" 200 -
+[ 2025-06-21 22:26:34,176 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-06-21 22:26:34,177 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-21 22:26:44,128 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:26:44] "GET / HTTP/1.1" 200 -
+[ 2025-06-21 22:26:45,717 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:26:45] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-21 22:26:53,394 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:26:53] "GET /predictdata?gender=male&race_ethnicity=group+A&parental_level_of_education=high+school&lunch=standard&test_preparation_course=none&total_score=123 HTTP/1.1" 200 -
+[ 2025-06-21 22:28:35,877 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-06-21 22:28:35,877 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-21 22:28:37,192 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:28:37] "GET /predictdata?gender=male&race_ethnicity=group+A&parental_level_of_education=high+school&lunch=standard&test_preparation_course=none&total_score=123 HTTP/1.1" 200 -
+[ 2025-06-21 22:28:45,774 ] 1744 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 30, in predict_datapoint
+    pred_df=data.get_data_as_frame(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomData.get_data_as_frame() takes 1 positional argument but 2 were given
+[ 2025-06-21 22:28:45,777 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:28:45] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-06-21 22:29:52,209 ] 1744 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 30, in predict_datapoint
+    pred_df=data.get_data_as_frame(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomData.get_data_as_frame() takes 1 positional argument but 2 were given
+[ 2025-06-21 22:29:52,211 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:29:52] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-06-21 22:29:54,484 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:29:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-21 22:30:05,431 ] 1744 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MUKUL\anaconda3\Lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Projects\Machine Learning\machine-learning-project\app.py", line 30, in predict_datapoint
+    pred_df=data.get_data_as_frame(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomData.get_data_as_frame() takes 1 positional argument but 2 were given
+[ 2025-06-21 22:30:05,433 ] 224 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 22:30:05] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -

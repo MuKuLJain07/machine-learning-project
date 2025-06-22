@@ -1,0 +1,37 @@
+[ 2025-06-19 00:36:00,302 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-06-19 00:36:00,302 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-06-19 00:36:23,431 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-06-19 00:36:23,431 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-06-19 00:38:20,139 ] 26 root - INFO - Entered the data ingestion method or component
+[ 2025-06-19 00:38:20,164 ] 29 root - INFO - Read the dataset as dataframe
+[ 2025-06-19 00:38:20,169 ] 35 root - INFO - train test split initiated
+[ 2025-06-19 00:38:20,189 ] 41 root - INFO - ingestion of the data is completed
+[ 2025-06-19 00:38:20,208 ] 66 root - INFO - Read train and test data completed
+[ 2025-06-19 00:38:20,210 ] 68 root - INFO - Obtaining preprocessing object
+[ 2025-06-19 00:38:20,210 ] 46 root - INFO - Numerical columns encoding completed
+[ 2025-06-19 00:38:20,210 ] 47 root - INFO - Categorical columns encoding completed
+[ 2025-06-19 00:38:20,213 ] 81 root - INFO - Applying preprocessing object on training and testing dataframe
+[ 2025-06-19 00:38:20,237 ] 93 root - INFO - saved preprocessing object
+[ 2025-06-19 00:40:23,189 ] 26 root - INFO - Entered the data ingestion method or component
+[ 2025-06-19 00:40:23,197 ] 29 root - INFO - Read the dataset as dataframe
+[ 2025-06-19 00:40:23,202 ] 35 root - INFO - train test split initiated
+[ 2025-06-19 00:40:23,209 ] 41 root - INFO - ingestion of the data is completed
+[ 2025-06-19 00:40:23,232 ] 66 root - INFO - Read train and test data completed
+[ 2025-06-19 00:40:23,232 ] 68 root - INFO - Obtaining preprocessing object
+[ 2025-06-19 00:40:23,232 ] 46 root - INFO - Numerical columns encoding completed
+[ 2025-06-19 00:40:23,232 ] 47 root - INFO - Categorical columns encoding completed
+[ 2025-06-19 00:40:23,234 ] 81 root - INFO - Applying preprocessing object on training and testing dataframe
+[ 2025-06-19 00:40:23,248 ] 93 root - INFO - saved preprocessing object
+[ 2025-06-19 00:40:23,252 ] 27 root - INFO - splitting training and test input data
+[ 2025-06-19 00:42:06,811 ] 26 root - INFO - Entered the data ingestion method or component
+[ 2025-06-19 00:42:06,817 ] 29 root - INFO - Read the dataset as dataframe
+[ 2025-06-19 00:42:06,822 ] 35 root - INFO - train test split initiated
+[ 2025-06-19 00:42:06,829 ] 41 root - INFO - ingestion of the data is completed
+[ 2025-06-19 00:42:06,850 ] 66 root - INFO - Read train and test data completed
+[ 2025-06-19 00:42:06,850 ] 68 root - INFO - Obtaining preprocessing object
+[ 2025-06-19 00:42:06,850 ] 46 root - INFO - Numerical columns encoding completed
+[ 2025-06-19 00:42:06,850 ] 47 root - INFO - Categorical columns encoding completed
+[ 2025-06-19 00:42:06,851 ] 81 root - INFO - Applying preprocessing object on training and testing dataframe
+[ 2025-06-19 00:42:06,863 ] 93 root - INFO - saved preprocessing object
+[ 2025-06-19 00:42:06,867 ] 27 root - INFO - splitting training and test input data
+[ 2025-06-19 00:42:10,807 ] 58 root - INFO - Best model Linear Regression found on both training and testing data

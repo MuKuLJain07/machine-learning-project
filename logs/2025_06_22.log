@@ -1,0 +1,106 @@
+[ 2025-06-22 21:55:18,263 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+[ 2025-06-22 21:55:18,263 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-22 21:55:18,265 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 21:55:19,916 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 21:55:19,924 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 21:55:42,572 ] 97 werkzeug - INFO -  * Detected change in 'M:\\Projects\\Machine Learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 21:55:42,789 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 21:55:44,458 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 21:55:44,467 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 21:55:54,104 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+[ 2025-06-22 21:55:54,104 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-22 21:55:54,106 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 21:55:55,854 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 21:55:55,862 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 21:59:47,413 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.9:5001
+[ 2025-06-22 21:59:47,413 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-22 21:59:47,415 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 21:59:48,919 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 21:59:48,926 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:01:45,279 ] 97 werkzeug - INFO -  * Detected change in 'm:\\Projects\\Machine Learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 22:01:45,469 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:01:47,037 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:01:47,045 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:03:06,831 ] 97 werkzeug - INFO -  * Detected change in 'm:\\projects\\machine learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 22:03:07,009 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:03:10,471 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:03:10,496 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.9:5001
+[ 2025-06-22 22:03:10,496 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-22 22:03:10,497 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:03:12,086 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:03:12,098 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:03:12,107 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:04:38,801 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:04:38,823 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.9:5001
+[ 2025-06-22 22:04:38,823 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-22 22:04:38,824 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:04:40,247 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:04:40,257 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:04:40,264 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:06:24,560 ] 97 werkzeug - INFO -  * Detected change in 'M:\\Projects\\Machine Learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 22:06:24,750 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:06:26,372 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:06:26,381 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:06:26,389 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:06:32,965 ] 97 werkzeug - INFO -  * Detected change in 'm:\\projects\\machine learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 22:06:33,150 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:06:34,803 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:06:34,812 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:06:34,820 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:06:40,329 ] 97 werkzeug - INFO -  * Detected change in 'm:\\projects\\machine learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 22:06:40,520 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:06:45,056 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:06:45,074 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-06-22 22:06:45,074 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-22 22:06:45,075 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:06:46,762 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:06:46,773 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:06:46,781 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:07:04,881 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:07:04] "GET / HTTP/1.1" 200 -
+[ 2025-06-22 22:07:05,306 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:07:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-06-22 22:09:24,485 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:09:24] "GET / HTTP/1.1" 200 -
+[ 2025-06-22 22:09:34,780 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:09:34] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-22 22:09:46,427 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:09:46] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-06-22 22:09:46,497 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:09:46] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2025-06-22 22:09:46,528 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:09:46] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2025-06-22 22:09:46,587 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:09:46] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=oXeQjo7Eeb4BSBSzinRg HTTP/1.1" 200 -
+[ 2025-06-22 22:09:46,644 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:09:46] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2025-06-22 22:10:48,184 ] 97 werkzeug - INFO -  * Detected change in 'm:\\projects\\machine learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 22:10:48,381 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:10:50,262 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:10:50,272 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:10:50,281 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:10:51,388 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:10:51] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-22 22:11:05,083 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:11:05] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-22 22:13:32,565 ] 97 werkzeug - INFO -  * Detected change in 'm:\\Projects\\Machine Learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 22:13:32,761 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:13:34,338 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:13:34,347 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:13:34,354 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:16:24,959 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:16:24] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-22 22:16:33,441 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:16:33] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-22 22:17:15,477 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:17:15] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-22 22:19:52,246 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:19:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-22 22:20:15,983 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:20:15] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-22 22:21:54,547 ] 97 werkzeug - INFO -  * Detected change in 'm:\\Projects\\Machine Learning\\machine-learning-project\\app.py', reloading
+[ 2025-06-22 22:21:54,797 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-06-22 22:21:56,789 ] 10 root - INFO - Flask app started
+[ 2025-06-22 22:21:56,800 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-22 22:21:56,808 ] 97 werkzeug - INFO -  * Debugger PIN: 892-699-780
+[ 2025-06-22 22:22:07,730 ] 97 werkzeug - INFO - 127.0.0.1 - - [22/Jun/2025 22:22:07] "POST /predictdata HTTP/1.1" 200 -
